@@ -1,0 +1,199 @@
+/* .sectionForum {
+    background-color: purple;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    width: 90%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+font-weight: 500;
+font-style: normal;
+}
+.names {
+    width: 70%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+/* }
+
+.full{
+    background-color: antiquewhite;
+}
+.last{
+    background-color: aqua;
+}
+h2 {
+    background-color: azure;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: normal;
+}
+.on {
+    color: red;
+}
+.mail {
+    background-color: blue;
+
+}
+h2 {
+    font-size: 15px;
+    font-weight: 200;
+    font-style: normal;
+}
+.words {
+    background-color: white;
+}
+h2 {
+    font-size: 15px;
+    font-weight: 200;
+    font-style: normal;
+} */
+
+.sectionForum {
+    background-color: purple;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 700px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.names {
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.full {
+    width: 45%;
+}
+.full input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.last {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.last input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.inputContainer input {
+    border-radius: 2px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+}
+
+.on {
+    color: red;
+}
+
+span {
+    color: white;
+
+}
+
+.mail {
+    width: 80%;
+
+}
+
+.mail input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.words {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.words textarea {
+    max-width: 98%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.words h2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(153, 8, 8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
